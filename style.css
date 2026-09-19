@@ -1,0 +1,92 @@
+/* =========================================================
+   CSS-WEEK1-HW1: SẮP XẾP TRANG ĐẦU TIÊN CỦA BẠN
+   ========================================================= */
+
+/* Bước 3: Thẻ body - phông chữ và kích thước phông chữ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+/* Bước 4: Thẻ header - màu nền */
+header {
+    background-color: #1e3a8a; /* Xanh đậm - Đảm bảo độ tương phản cao */
+    color: #ffffff;
+    padding: 24px 15px;
+    text-align: center;
+}
+
+/* Bước 5: Thẻ nav - màu nền điều hướng */
+nav {
+    background-color: #0f766e; /* Màu xanh ngọc đậm */
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Bước 8: Thẻ li - thuộc tính hiển thị (display) và độ rộng (width) */
+li {
+    display: inline-block;
+    width: 130px;
+    text-align: center;
+}
+
+/* Bước 6: Thẻ main - màu nền và kích thước phông chữ */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    padding: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Bước 9: Thẻ h1 - căn chỉnh văn bản, phông chữ và màu sắc */
+h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+main h1 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+/* Bước 10: Thẻ p - thuộc tính chiều cao dòng (line-height) */
+p {
+    line-height: 1.8;
+    margin-bottom: 16px;
+    color: #334155;
+}
+
+/* Bước 7: Thẻ footer - màu nền */
+footer {
+    background-color: #1e293b;
+    color: #f8fafc;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
